@@ -75,6 +75,14 @@ function App() {
           </>
         )}
       </main>
+
+      {/* Adoption info footer - always visible */}
+      <footer className="max-w-md mx-auto px-4 pb-8 mt-4">
+        <div className="bg-white/80 rounded-xl p-4 text-center text-sm text-gray-500">
+          <p>¿Quieres adoptar? Visita tu refugio local para confirmar la adopción.</p>
+          <p className="mt-1">Contacto del refugio: +502 2222-3333 | Agendar visita</p>
+        </div>
+      </footer>
     </div>
   );
 }
